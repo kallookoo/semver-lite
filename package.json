@@ -12,6 +12,11 @@
   },
   "license": "MIT",
   "author": "Sergio (kallookoo)",
+  "keywords": [
+    "semver",
+    "compare",
+    "versions"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.min.js",
