@@ -15,8 +15,7 @@
   "keywords": [
     "semver",
     "version",
-    "compare",
-    "versions"
+    "compare"
   ],
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
