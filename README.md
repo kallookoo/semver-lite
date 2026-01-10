@@ -7,7 +7,7 @@ A lightweight library for comparing semantic versions.
 ### npm
 
 ```bash
-npm install semver-lite
+npm install @kallookoo/semver-lite
 ```
 
 ```typescript
