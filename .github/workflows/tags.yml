@@ -16,8 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-        with:
-          fetch-tags: true
       - uses: fregante/setup-git-user@v2
       - name: Create tag if not exists
         env:
@@ -28,6 +26,7 @@ jobs:
             echo "No version found in package.json"
             exit 1
           fi
+          git fetch --tags
           if git rev-parse "v$VERSION" >/dev/null 2>&1; then
             exit 0
           fi
