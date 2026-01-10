@@ -14,7 +14,7 @@ npm install @kallookoo/semver-lite
 import { compare, compareStrict } from 'semver-lite';
 ```
 
-### Browser via CDN (Coming soon)
+### Browser via CDN
 
 #### ESM (ES Modules)
 
