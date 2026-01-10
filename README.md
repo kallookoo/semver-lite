@@ -2,9 +2,6 @@
 
 A lightweight library for comparing semantic versions.
 
-> [!WARNING]
-> This package is not yet available on npm or CDN services. It's currently under development.
-
 ## Installation & Usage
 
 ### npm
@@ -17,7 +14,7 @@ npm install semver-lite
 import { compare, compareStrict } from 'semver-lite';
 ```
 
-### Browser via CDN
+### Browser via CDN (Coming soon)
 
 #### ESM (ES Modules)
 
