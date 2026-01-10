@@ -1,6 +1,6 @@
 {
   "name": "@kallookoo/semver-lite",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "A lightweight library for comparing semantic versions.",
   "homepage": "https://github.com/kallookoo/semver-lite#readme",
   "bugs": {

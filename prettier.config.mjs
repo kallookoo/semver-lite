@@ -1,5 +1,6 @@
 // /**
-//  * @see https://prettier.io/docs/configuration
+//  * @see https://prettier.io/docs/confi
+// guration
 //  * @type {import('prettier').Config}
 //  */
 const config = {
@@ -14,4 +15,4 @@ const config = {
 	arrowParens: 'always',
 };
 
-module.exports = config;
+export default config;
